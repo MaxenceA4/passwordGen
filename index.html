@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Password Generator</title>
+    <meta charset="utf-8">
+</head>
+<body>
+<h2>Generate passwords with our random password generator.</h2>
+<output id="output" value="output"></output>
+<button onclick="generatePassword()">regenerate</button>
+<button onclick="copyPassword()">copy</button>
+
+<fieldset>
+    <legend>Settings</legend>
+    <label for="length">Length</label>
+    <input type="range" id="length" name="length" value="10" min="6" max="32" step="1"> <output
+        id="liveLengthOutput" name="liveLengthOutput" for="length">10</output>
+    <br>
+    <label for="letters">Letters</label>
+    <input type="checkbox" id="letters" name="letters" checked>
+    <br>
+    <label for="numbers">Numbers</label>
+    <input type="checkbox" id="numbers" name="numbers" checked>
+    <br>
+    <label for="symbols">Symbols</label>
+    <input type="checkbox" id="symbols" name="symbols" checked>
+    <br>
+    <button onclick="generatePassword()">generate</button>
+</fieldset>
+</body>
+<script src="script.js"></script>
+</html>

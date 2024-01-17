@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+h2 {
+    color: #4a90e2;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+legend {
+    color: #4a90e2;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="range"],
+input[type="checkbox"] {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #357ab8;
+}
+
+output {
+    display: block;
+    padding: 10px;
+    background-color: #e6e6e6;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    border-radius: 5px;
+}
